@@ -1,0 +1,25 @@
+<!--
+Document Type Declaration (DTD) für Kinodaten
+Aufgabe 3a - DLBIADPS01-01
+
+Author: Qerim Mehmeti
+MN: 42307005
+
+DTD definiert die XML-Struktur wie ein Schema in modernen APIs
+-->
+
+<!ELEMENT filme (film+)>
+<!ELEMENT film (titel, regisseur, genre, erscheinungsdatum, rating)>
+
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT regisseur (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT erscheinungsdatum (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+
+<!-- Attribute für film Element -->
+<!ATTLIST film id ID #REQUIRED>
+<!ATTLIST film sprache CDATA #IMPLIED>
+
+<!-- Rating Constraints (0.0 bis 10.0) -->
+<!ATTLIST rating wert CDATA #REQUIRED>

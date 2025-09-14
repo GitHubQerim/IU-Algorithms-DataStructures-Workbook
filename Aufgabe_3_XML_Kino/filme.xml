@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filme SYSTEM "filme.dtd">
+
+<!--
+XML-Datei für Kinodaten
+Aufgabe 3b - DLBIADPS01-01
+
+Author: Qerim Mehmeti
+MN: 42307005
+
+-->
+
+<!-- XML-Testdaten mit verschiedenen Filmen -->
+<filme>
+    <film id="f001" sprache="de">
+        <titel>Der König der Löwen</titel>
+        <regisseur>Jon Favreau</regisseur>
+        <genre>Animation/Familie</genre>
+        <erscheinungsdatum>2019-07-17</erscheinungsdatum>
+        <rating wert="7.8">Sehr gut für Familien</rating>
+    </film>
+
+    <film id="f002" sprache="en">
+        <titel>Inception</titel>
+        <regisseur>Christopher Nolan</regisseur>
+        <genre>Sci-Fi/Thriller</genre>
+        <erscheinungsdatum>2010-07-16</erscheinungsdatum>
+        <rating wert="8.8">Meisterwerk des Kinos</rating>
+    </film>
+
+    <film id="f003" sprache="de">
+        <titel>Das Boot</titel>
+        <regisseur>Wolfgang Petersen</regisseur>
+        <genre>Drama/Krieg</genre>
+        <erscheinungsdatum>1981-09-17</erscheinungsdatum>
+        <rating wert="8.3">Klassiker des deutschen Films</rating>
+    </film>
+
+    <film id="f004" sprache="en">
+        <titel>The Matrix</titel>
+        <regisseur>Wachowski Sisters</regisseur>
+        <genre>Sci-Fi/Action</genre>
+        <erscheinungsdatum>1999-03-31</erscheinungsdatum>
+        <rating wert="8.7">Revolutionär für die Filmtechnik</rating>
+    </film>
+</filme>
